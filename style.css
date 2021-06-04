@@ -1,0 +1,65 @@
+.head-p{
+    padding-top: 120px !important;
+}
+.ff{
+    margin-top: 300px;
+}
+.card-set{
+    width: 250px;
+    
+}
+.card-img{
+    height: 350px;
+}
+.jumbotron{
+    background-color: #000 !important;
+}
+.img-junbo{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url(./images/veccc.jpg);
+}
+.pro{
+    width: 70%;
+}
+.prog{
+    width: 30%;
+}
+
+/* GridsystemBS5 */
+:root{
+    --div-height : 85vh;
+    --bg-size : 100% 100%;
+}
+/* .center_div .top_div{
+    height: 45vh;   
+}
+.center_div .bottom-first{
+    height: 35vh;   
+}
+.center_div .bottom-sec{
+    height: 55vh;   
+} */
+.center_div .top_div:first-child{
+    height: 45vh;   
+    background-image:url(./images/ron3.jpg);
+    border: 3px #c8bebe solid;
+}
+.center_div .top_div:last-child{
+    height: 45vh;   
+    background-image:url(./images/ron4.jpg);
+    border: 3px #c8bebe solid;
+}
+.center_div .bottom-first{
+    height: 35vh; 
+    background-image:url(./images/ron6.jpg);  
+    border: 3px #c8bebe solid;
+}
+.center_div .bottom-sec:first-child{
+    height: 55vh;   
+    background-image:url(./images/ron10.jpg); 
+    border: 3px #c8bebe solid;
+}
+.center_div .bottom-sec:last-child{
+    height: 55vh;   
+    background-image:url(./images/ron8.jpg); 
+    border: 3px #c8bebe solid;
+}
